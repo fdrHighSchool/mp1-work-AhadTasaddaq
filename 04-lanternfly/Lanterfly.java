@@ -5,23 +5,29 @@
  * @author (your name)
  * @version (a version number or a date)
  */
-import java.util.Scanner;
 public class Lanterfly
 {
-    public static void main(String[]args){
-        Scanner input = new Scanner (System.in);
-        
-        System.out.print("The Lanternfly is an invasion species and ");
-        System.out.println("is a threat to our trees and plants. ");
-        
-        System.out.print("How many did you squash this summer?  ");
-        int num =input.nextLine();
-        
-        if (num < 10){
-            System.out.println("You can do better than that!");
-        }
-         else{
-             System.out.println("Thanks for doing your part");
-        }
-}
+    // instance variables - replace the example below with your own
+    private int x;
+
+    /**
+     * Constructor for objects of class Lanterfly
+     */
+    public Lanterfly()
+    {
+        // initialise instance variables
+        x = 0;
+    }
+
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
+    public int sampleMethod(int y)
+    {
+        // put your code here
+        return x + y;
+    }
 }
