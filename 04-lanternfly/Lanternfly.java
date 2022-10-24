@@ -1,7 +1,7 @@
 
 /**
  * Write a description of class Lanterfly1 here.
- *
+ */Users/student/Desktop/mp1-work-AhadTasaddaq/04-lanternfly/Lanternfly.java
  * @author (your name)
  * @version (a version number or a date)
  */
